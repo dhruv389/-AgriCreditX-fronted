@@ -5,6 +5,7 @@ import Error from "./pages/Error";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import BankProfile from "./pages/BankProfile";
+import FarmerDetail from "./pages/FarmerDetail";
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
         { index: true, element: <Home /> },
         { path: "dashboard", element: <Dashboard /> },
         { path: "bankprofile", element: <BankProfile /> },
+        { path: "farmerdetail", element: <FarmerDetail/> },
+
         
       
 
